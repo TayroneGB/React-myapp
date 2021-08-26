@@ -1,9 +1,15 @@
 import './App.css';
-import Planets from './componentes/panetas/index'
+import Caixa from './componentes/index'
+import Baixo from './componentes/baixo'
 
 function App() {
   return (
-    <Planets/>
+    <div>
+      <Caixa/>
+      <Baixo/>
+    </div>
+  
+  
   );
 }
 

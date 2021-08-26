@@ -1,9 +1,9 @@
 import React from 'react';
 import './index.css'
 
-const Caixa=()=>{
+const Baixo=()=>{
     return(
-        <div class='top'></div>
+        <div class='bot'></div>
             )
 };
-export default Caixa;
+export default Baixo;
