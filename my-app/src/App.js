@@ -1,12 +1,12 @@
 import './App.css';
-import Caixa from './componentes/index'
-import Baixo from './componentes/baixo'
+import Main from './componentes/index'
+
 
 function App() {
   return (
     <div>
-      <Caixa/>
-      <Baixo/>
+      <Main/>
+
     </div>
   
   

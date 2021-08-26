@@ -1,9 +1,17 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import './index.css'
+import Baixo from './baixo'
+import GrayImg from './grayimag'
 
-const Caixa=()=>{
+const Main=(props)=>{
     return(
-        <div class='top'></div>
+        <Fragment>
+            
+            <h1>{props.nome}</h1>
+            <p>{props.descri}</p>
+            <GrayImg img_url={props.img_url}/>
+            <Baixo/>
+        </Fragment>
             )
 };
-export default Caixa;
+export default Main;

@@ -1,13 +1,6 @@
-.top{
-    width: 100px;
-    height: 100px;
-    background: red;
-    display: inline-block;
-}
 
-.bot{
-    width: 100px;
-    height: 100px;
-    background: rgb(43, 255, 0);
-    display: inline-block;
+
+.grayimgg{
+    width: 200px;
+    height: 180px;
 }
