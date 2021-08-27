@@ -1,15 +1,16 @@
 import './App.css';
-import Main from './componentes/index'
+import Cabeca from './componentes/cabe';
+import Corpo from './componentes/corpo';
+import Foot from './componentes/footer';
 
 
 function App() {
-  return (
+  return (  
     <div>
-      <Main/>
-
+      <Cabeca/>
+      <Corpo/>
+      <Foot/>
     </div>
-  
-  
   );
 }
 
