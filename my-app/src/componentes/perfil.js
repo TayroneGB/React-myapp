@@ -1,18 +1,21 @@
-import React from 'react'
+import React, {Fragment} from 'react'
 import './estilo.css'
-
+import Foto from './Foto'
 
 const Perfil = (props) => {
     return(
-        <div class='box'>
-            <img class='avat' src='https://cdn.pixabay.com/photo/2012/11/21/17/02/lion-66898_960_720.jpg'></img>
+    <Fragment ><div class='box'>
+           
             <ul type='none'>
-                <li><h5>Name</h5></li>
-                <li>b</li>
-                <li>c</li>
-                <li>d</li>
+                <Foto img_url={props.img_url}/>
+                <li><h3>{props.nome}</h3></li>
+                <li>Idade:{props.idade}</li>
+                <li>Sexo:{props.sexo}</li>
+                
+                
             </ul>
-        </div>
+            </div>
+    </Fragment>
     )
 }
 

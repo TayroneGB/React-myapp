@@ -30,3 +30,11 @@
     border-radius: 50%;
     background: rgba(9, 0, 43, 0.336);
 }
+.foto{
+    width: 250px;
+    height: 250px;
+    margin: 10px 35px 2px 35px;
+    border: solid 1px;
+    border-radius: 50%;
+    background: rgba(9, 0, 43, 0.336);
+}

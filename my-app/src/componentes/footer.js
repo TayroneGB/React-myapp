@@ -1,11 +1,13 @@
-import React from 'react'
+import React, {Fragment} from 'react'
 import './estilo.css'
 
 const Foot = () =>{
     return(
-        <div  class='baixo'>
+        <Fragment>
+            <div class='baixo'>
             <p>baixo</p>
-        </div>
+            </div>
+        </Fragment>
     )
 }
 

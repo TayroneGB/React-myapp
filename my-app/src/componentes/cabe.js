@@ -1,12 +1,14 @@
-import React from 'react'
+import React, {Fragment} from 'react'
 import './estilo.css'
 
 
 const Cabeca = () =>{
     return(
-        <div class='top'>
+        <Fragment>
+            <div class='top'>
             <p>cima</p>
-        </div>
+            </div>
+        </Fragment>
     )
 }
 
